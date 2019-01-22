@@ -40,8 +40,8 @@ function fdn_out = FDN_v(in)
     % Some cool stuff, like random-generation of prime numbers for delay
     % times (with some own-made modifications), using a Hadamard matrix for
     % feedback coefficients and this way of testing the algorithm 
-    % (audioplayer object usage), were suggested processing and programming
-    % enhancements from Juan David Sierra (juandsierral@gmail.com).
+    % (audioplayer object usage), were processing and programming
+    % enhancements suggested by Juan David Sierra (juandsierral@gmail.com).
     
 % Every time this code is executed, a different color in reverb is
 % generated, due to the way the delay times and the i/o coefficients
