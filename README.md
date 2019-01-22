@@ -1,2 +1,4 @@
 # Undergraduate-degree-project
 This repository contains the coding section of my B.A in Music (emphasized in Music technology) final project, a research about digital reverberation algorithms and sound spatialization, using Matlab as programming tool.
+
+Codes can be modified as new-learnt dsp techniques are applied to them, so proper branches will be created in case that happens. The implemented algorithms are: Feedback Delay Network, Image Source Method and Scattering Delay Network.
