@@ -27,9 +27,7 @@ stop(player);
 % Visualize processed signal
 subplot(2,1,2), plot(y), title('Processed signal')
 % Visualize IR
-figure, 
-title('Impulse Response')
-plot(IR)
+figure, plot(IR),title('Impulse Response')
 % Listen processed signal
 player = audioplayer(y,x.SampleRate);
 play(player);
