@@ -1,0 +1,70 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="936856970" file="C:\Users\migue\OneDrive\Desktop\Trabajos Universidad\Docs Música-Énf Ing Sonido\ProyectoDeGradoMLab\Tarea2F-I(Mono)\ISM code\ISM_App.prj" location="C:\Users\migue\OneDrive\Desktop\Trabajos Universidad\Docs Música-Énf Ing Sonido\ProyectoDeGradoMLab\Tarea2F-I(Mono)\ISM code" name="ISM_App" target="target.mlapps" target-name="Package App">
+    <param.appname>ISM_App</param.appname>
+    <param.authnamewatermark>Miguel Amado</param.authnamewatermark>
+    <param.email>amadodevia@gmail.com</param.email>
+    <param.company>Self</param.company>
+    <param.icon>${PROJECT_ROOT}\ISM_App_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\ISM_App_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\ISM_App_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\ISM_App_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>RIR (Room Impulse Response) interactive generator. Original and processed signals can be compared by listening them.</param.summary>
+    <param.description>The source code used in this app is the same one I uploaded as ISM.m on my github profile (Username: AmadoMiguel) on my Bachelor's Degree Project repository. What's added to that source code are some UI objects's callback functions in order to achieve a more interactive and user-friendly presentation for this code. 
+
+The idea is to select an instrument first, then tune some RIR parameters, then press the Generate RIR button, then the Convolve button. Finally, the original and processed files can be listened and compared.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\ISMscreen.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\migue\OneDrive\Desktop\Trabajos Universidad\Docs Música-Énf Ing Sonido\ProyectoDeGradoMLab\Tarea2F-I(Mono)\ISM code</param.output>
+    <param.guid>9dbdcadc-aaff-4a8c-bb65-3b95ecc32914</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ISM_App.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Drums.mp3</file>
+      <file>${PROJECT_ROOT}\ElecGtr.wav</file>
+      <file>${PROJECT_ROOT}\ISM.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\migue\OneDrive\Desktop\Trabajos Universidad\Docs Música-Énf Ing Sonido\ProyectoDeGradoMLab\Tarea2F-I(Mono)" name="ISM code" optional="false">C:\Users\migue\OneDrive\Desktop\Trabajos Universidad\Docs Música-Énf Ing Sonido\ProyectoDeGradoMLab\Tarea2F-I(Mono)\ISM code</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Users\migue\OneDrive\Documents\MATLAB FOLDERS</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
