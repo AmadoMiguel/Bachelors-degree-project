@@ -40,11 +40,11 @@ Dlmn = sqrt((dx.^2)+(dy.^2)+(dz.^2));
 % Room absorption function per axis
 coefAbsor = -abs(coefAbsor);
 absorFunc_x = coefAbsor(1).^(abs(0.5.*l - 0.25 + 0.25.*(-1).^l)).*...
-              coefAbsor(2).^(abs(0.5.*l + 0.25 - 0.25.*(-1).^l));
+              coefAbsor(2).^(abs(l + 0.5 - 0.5.*(-1).^l));
 absorFunc_y = coefAbsor(3).^(abs(0.5.*m - 0.25 + 0.25.*(-1).^m)).*...
-              coefAbsor(4).^(abs(0.5.*m + 0.25 - 0.25.*(-1).^m));
+              coefAbsor(4).^(abs(m + 0.5 - 0.5.*(-1).^m));
 absorFunc_z = coefAbsor(5).^(abs(0.5.*n - 0.25 + 0.25.*(-1).^n)).*...
-              coefAbsor(6).^(abs(0.5.*n + 0.25 - 0.25.*(-1).^n));    
+              coefAbsor(6).^(abs(n + 0.5 - 0.5.*(-1).^n));       
 absorFunc = absorFunc_x.*absorFunc_y.*absorFunc_z;        
 % Air damping function
 airDampFunc = exp(-airDamp*Dlmn);
