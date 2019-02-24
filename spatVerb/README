@@ -1,0 +1,6 @@
+spatVerb
+
+This folder contains one MATLAB function (ISM_dis.m) and the actual spatVerb.m script, which corresponds to the main degree project
+algorithm. This algorithm consists on the combination between reverb and spatialization. The reverb is generated via convolution (the 
+IR calculation algorithm is based on ISM.m (located on ISM code folder)) and the spatialization, via IID and ITD concepts by considering
+a "stereo listener" (two listener points on "ears") instead a mono one. Further explanation on the main research document.
